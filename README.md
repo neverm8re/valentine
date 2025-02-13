@@ -14,8 +14,8 @@ The design is styled romantically with a dark red background and hearts.
 
 Clone the repository:
 
-git clone https://github.com/your-repo/valentine-button.git
-cd valentine-button
+git clone https://github.com/neverm8re/valentine.git
+cd valentine
 
 Install dependencies:
 
