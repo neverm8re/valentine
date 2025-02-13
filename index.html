@@ -1,15 +1,25 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Valentine button</title>
-    <meta name="description" content="Send this site to your valentine" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" />
+    <title>Валентинка</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="card">
+      <h1>Будешь моей валентинкой?</h1>
+      <div class="buttons">
+        <button id="yesBtn">Да 🥰</button>
+        <button id="noBtn">Нет 😢</button>
+      </div>
+    </div>
+    <div class="congratulation" id="congratulation">
+      <div class="congratulation-content">
+        <h2>❤️С Днем святого Валентина!<br>Пусть любовь, способная творить чудеса, наполняет<br> твое сердце каждый день, а не только сегодня.<br> Пусть она освещает даже самые темные<br> моменты и делает твою жизнь ярче! ❤️</h2>
+        <p>Спасибо, что согласась быть моей валентинкой)</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
